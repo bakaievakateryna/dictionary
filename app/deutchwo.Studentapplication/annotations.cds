@@ -14,7 +14,7 @@ annotate service.StudentWort with @(
         },
         {
             $Type : 'UI.DataField',
-            Label : 'worttaten',
+            Label : 'Worttaten',
             Value : worttaten,
         },
         {
@@ -23,7 +23,12 @@ annotate service.StudentWort with @(
             Value : lerntstatus,
             Criticality : criticality_lernt,
         },
-    ]
+    ],
+    UI.HeaderInfo  : {
+        $Type : 'UI.HeaderInfoType',
+        TypeName : 'Wort',
+        TypeNamePlural : 'Wörter',
+    },
 );
 annotate service.StudentWort with @(
     UI.FieldGroup #GeneratedGroup1 : {
@@ -70,3 +75,23 @@ annotate service.StudentWort with @(
         },
     ]
 );
+annotate service.StudentWort with @(
+    UI.SelectionFields : [
+        klass_Nummer,
+        lerntstatus,
+        Wort,
+        worttaten,
+    ]
+);
+annotate service.StudentWort with {
+    klass @Common.Label : 'Klasse Nummer'
+};
+annotate service.StudentWort with {
+    lerntstatus @Common.Label : 'Lern status'
+};
+annotate service.StudentWort with {
+    Wort @Common.Label : 'Wort'
+};
+annotate service.StudentWort with {
+    worttaten @Common.Label : 'Worttaten'
+};

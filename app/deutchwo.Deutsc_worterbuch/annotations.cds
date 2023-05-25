@@ -23,7 +23,12 @@ annotate service.Wort with @(
             Label : 'Status',
             Criticality : criticality_send,
         },
-    ]
+    ],
+    UI.HeaderInfo  : {
+        $Type : 'UI.HeaderInfoType',
+        TypeName : 'Wort',
+        TypeNamePlural : 'Wörter',
+    },
 );
 annotate service.Wort with @(
     UI.FieldGroup #GeneratedGroup1 : {
@@ -65,3 +70,19 @@ annotate service.Wort with @(
         },
     ]
 );
+annotate service.Wort with @(
+    UI.SelectionFields : [
+        klass_Nummer,
+        sendstatus,
+        worttaten,
+    ]
+);
+annotate service.Wort with {
+    klass @Common.Label : 'Klasse nummer'
+};
+annotate service.Wort with {
+    sendstatus @Common.Label : 'Send Status'
+};
+annotate service.Wort with {
+    worttaten @Common.Label : 'Worttaten'
+};
