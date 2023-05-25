@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="4.0" xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx">
+    <edmx:Reference Uri="https://sap.github.io/odata-vocabularies/vocabularies/Common.xml">
+        <edmx:Include Alias="Common" Namespace="com.sap.vocabularies.Common.v1"/>
+    </edmx:Reference>
+    <edmx:Reference Uri="https://oasis-tcs.github.io/odata-vocabularies/vocabularies/Org.OData.Core.V1.xml">
+        <edmx:Include Alias="Core" Namespace="Org.OData.Core.V1"/>
+    </edmx:Reference>
+    <edmx:DataServices>
+        <Schema Namespace="deutchwoService" xmlns="http://docs.oasis-open.org/odata/ns/edm">
+            <EntityContainer Name="EntityContainer">
+                <EntitySet Name="Wort" EntityType="deutchwoService.Wort">
+                    <NavigationPropertyBinding Path="student" Target="Student"/>
+                </EntitySet>
+                <EntitySet Name="Lehrer" EntityType="deutchwoService.Lehrer"/>
+                <EntitySet Name="Student" EntityType="deutchwoService.Student">
+                    <NavigationPropertyBinding Path="wort" Target="Wort"/>
+                </EntitySet>
+            </EntityContainer>
+            <EntityType Name="Wort">
+                <Key>
+                    <PropertyRef Name="Wort"/>
+                    <PropertyRef Name="worttaten"/>
+                    <PropertyRef Name="sent"/>
+                </Key>
+                <Property Name="Wort" Type="Edm.String" Nullable="false"/>
+                <Property Name="Artikel" Type="Edm.String" MaxLength="100"/>
+                <Property Name="worttaten" Type="Edm.String" MaxLength="100" Nullable="false"/>
+                <Property Name="sent" Type="Edm.String" MaxLength="100" Nullable="false"/>
+                <NavigationProperty Name="student" Type="deutchwoService.Student" Partner="wort">
+                    <ReferentialConstraint Property="student_name" ReferencedProperty="name"/>
+                </NavigationProperty>
+                <Property Name="student_name" Type="Edm.String" MaxLength="30"/>
+            </EntityType>
+            <EntityType Name="Lehrer">
+                <Key>
+                    <PropertyRef Name="name"/>
+                </Key>
+                <Property Name="name" Type="Edm.String" Nullable="false"/>
+                <Property Name="telefon_nummer" Type="Edm.String" MaxLength="100"/>
+                <Property Name="email" Type="Edm.String" MaxLength="100"/>
+            </EntityType>
+            <EntityType Name="Student">
+                <Key>
+                    <PropertyRef Name="name"/>
+                </Key>
+                <Property Name="name" Type="Edm.String" MaxLength="30" Nullable="false"/>
+                <Property Name="telefon_numer" Type="Edm.String" MaxLength="12"/>
+                <Property Name="email" Type="Edm.String" MaxLength="100"/>
+                <NavigationProperty Name="wort" Type="Collection(deutchwoService.Wort)" Partner="student"/>
+            </EntityType>
+        </Schema>
+    </edmx:DataServices>
+</edmx:Edmx>

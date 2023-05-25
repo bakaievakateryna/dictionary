@@ -1,0 +1,14 @@
+[
+	{
+		"entity": "Lehrer",
+		"namespace": "deutchwo",
+		"file": "/home/user/projects/deutchwo/db/data/deutchwo-Lehrer.csv",
+		"isFixed": false
+	},
+	{
+		"entity": "Wort",
+		"namespace": "deutchwo",
+		"file": "/home/user/projects/deutchwo/db/data/deutchwo-Wort.csv",
+		"isFixed": false
+	}
+]
