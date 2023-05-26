@@ -1,0 +1,7 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="sap.btp.sapui5.controller.List" displayBlock="true">
+  <Page id="listPage" title="Worte">
+    <content>
+        
+    </content>
+    </Page>
+</mvc:View>

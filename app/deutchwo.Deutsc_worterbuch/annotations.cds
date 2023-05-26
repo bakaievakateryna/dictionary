@@ -14,7 +14,7 @@ annotate service.Wort with @(
         },
         {
             $Type : 'UI.DataField',
-            Label : 'Worttaten',
+            Label : 'Wortart',
             Value : worttaten,
         },
         {

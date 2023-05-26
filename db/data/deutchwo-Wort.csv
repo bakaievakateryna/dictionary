@@ -1,31 +1,50 @@
 Wort;Artikel;worttaten;klass_Nummer;sendstatus;lerntstatus;criticality_send;criticality_lernt
-Abbiegen;kein;verb;Klass3;gesendet;nicht_gelernt;3;2
+abbiegen;kein;Verb;Klass3;gesendet;nicht_gelernt;3;2
 Abbildung;die ;Nomen;Klass3;gesendet;nicht_gelernt;3;2
-Abfahren;kein;verb;Klass6;gesendet;nicht_gelernt;3;2
+abfahren;kein;Verb;Klass6;gesendet;nicht_gelernt;3;2
 Abenteuer;das;Nomen;Klass5;gesendet;nicht_gelernt;3;2
 Auftrag;der ;Nomen;Klass3;gesendet;nicht_gelernt;3;2
-aufwachen;kein;verb;Klass2;gesendet;nicht_gelernt;3;2
+aufwachen;kein;Verb;Klass2;gesendet;nicht_gelernt;3;2
 Aufzug;der;Nomen;Klass4;gesendet;nicht_gelernt;3;2
-beginnen;kein;verb;Klass5;gesendet;nicht_gelernt;3;2
-begrüßen;kein;verb;Klass6;gesendet;nicht_gelernt;3;2
-beschließen;kein;verb;Klass4;gesendet;nicht_gelernt;3;2
-bereit;kein;verb;Klass4;gesendet;nicht_gelernt;3;2
-Berg;der;nomen;Klass5;gesendet;nicht_gelernt;3;2
-besonder;kein;adjektive;Klass5;gesendet;nicht_gelernt;3;2
+beginnen;kein;Verb;Klass5;gesendet;nicht_gelernt;3;2
+begrüßen;kein;Verb;Klass6;gesendet;nicht_gelernt;3;2
+beschließen;kein;Verb;Klass4;gesendet;nicht_gelernt;3;2
+bereit;kein;Verb;Klass4;gesendet;nicht_gelernt;3;2
+Berg;der;Nomen;Klass5;gesendet;nicht_gelernt;3;2
+besonder;kein;Adverb;Klass5;gesendet;nicht_gelernt;3;2
 Betrag;der;Nomen;Klass6;gesendet;nicht_gelernt;3;2
 Bildschirm;der;Nomen;Klass4;gesendet;nicht_gelernt;3;2
 bunt;kein;Nomen;Klass5;gesendet;nicht_gelernt;3;2
 daher;kein;Adverb;Klass2;gesendet;nicht_gelernt;3;2
-damals;kein;Adverb;Klass2;gesendet;nicht_gelernt;3;2
-dauernd;kein;Adverb;Klass4;gesendet;nicht_gelernt;3;2
-dekorieren;kein;verb;Klass3;gesendet;nicht_gelernt;3;2
-dumm;kein;adjektive;Klass3;nicht gesendet;nicht_gelernt;2;2
-ebenfalls;kein;adverb;Klass2;nicht gesendet;nicht_gelernt;2;2
+damals;kein;Adverb;Klass2;gesendet;gelernt;3;3
+dauernd;kein;Adjektiv;Klass4;gesendet;gelernt;3;3
+dekorieren;kein;Verb;Klass3;gesendet;gelernt;3;3
+dumm;kein;Adjektiv;Klass3;nicht gesendet;gelernt;2;3
+ebenfalls;kein;Adverb;Klass2;nicht gesendet;gelernt;2;3
 Einbahnstraße;die ;Nomen;Klass1;nicht gesendet;nicht_gelernt;2;2
-eindeutig;kein;adjektiv;Klass4;nicht gesendet;nicht_gelernt;2;2
-Einfluss;der ;nomen;Klass3;nicht gesendet;nicht_gelernt;2;2
-beeinflussen;kein;verb;Klass5;nicht gesendet;nicht_gelernt;2;2
+eindeutig;kein;Adjektiv;Klass4;nicht gesendet;nicht_gelernt;2;2
+Einfluss;der ;Nomen;Klass3;nicht gesendet;gelernt;2;3
+beeinflussen;kein;verb;Klass5;nicht gesendet;gelernt;2;3
 Einkauf;der;nomen;Klass6;nicht gesendet;nicht_gelernt;2;2
 einsam;kein;adverb;Klass3;nicht gesendet;nicht_gelernt;2;2
 Einkommen;das;namen;Klass1;nicht gesendet;nicht_gelernt;2;2
 endlich;kein;adverb;Klass2;nicht gesendet;nicht_gelernt;2;2
+Fasching;der;worttaten4751;Klass3;nicht gesendet;lerntstatus778;5049;3506
+fassen;kein;worttaten6192;Klass4;nicht gesendet;lerntstatus4334;3217;4771
+Fehler;der;worttaten218;Klass3;nicht gesendet;lerntstatus8707;390;815
+Feier;die;worttaten9623;Klass1;nicht gesendet;lerntstatus2591;5978;5933
+Feierabend;der;worttaten8500;Klass5;nicht gesendet;lerntstatus6673;2626;4033
+Fieber;das;worttaten1912;Klass2;nicht gesendet;lerntstatus2273;5554;5397
+Fläche;die;worttaten7841;Klass6;nicht gesendet;lerntstatus3542;5106;4645
+Gang;der;worttaten3560;Klass5;nicht gesendet;lerntstatus8643;3970;2713
+ganz;kein;worttaten1636;Klass4;nicht gesendet;lerntstatus3054;2703;404
+Garage;die ;worttaten6007;Klass3;nicht gesendet;lerntstatus4369;5064;5747
+Garderobe;die;worttaten4520;Klass2;nicht gesendet;lerntstatus9737;3502;4037
+Gebühr;die ;worttaten2559;Klass5;nicht gesendet;lerntstatus7479;6823;7619
+Gedicht;das ;worttaten7724;Klass4;nicht gesendet;lerntstatus1451;6388;3184
+Geduld;die;worttaten9356;Klass6;nicht gesendet;lerntstatus8039;3578;1906
+gegenüber;kein;worttaten9285;Klass5;nicht gesendet;lerntstatus702;8925;977
+Geheimnis;das ;worttaten3182;Klass2;nicht gesendet;lerntstatus2899;3535;5256
+Gefängnis;das ;worttaten9355;Klass5;nicht gesendet;lerntstatus4702;8388;7130
+genügen;der ;wort;Klass2;nicht gesendet;lerntstatus9296;6265;2946
+Gepäck;das;Nomen;Klass3;nicht gesendet;lerntstatus1207;9638;7997

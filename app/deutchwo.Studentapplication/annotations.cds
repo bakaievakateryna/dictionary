@@ -87,7 +87,7 @@ annotate service.StudentWort with {
     klass @Common.Label : 'Klasse Nummer'
 };
 annotate service.StudentWort with {
-    lerntstatus @Common.Label : 'Lern status'
+    lerntstatus @Common.Label : 'Lernstand'
 };
 annotate service.StudentWort with {
     Wort @Common.Label : 'Wort'
